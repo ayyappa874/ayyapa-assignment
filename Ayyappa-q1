@@ -1,7 +1,7 @@
 # import required modules
 import requests, json
 # Enter your API key here
-api_key = "c88f171cd26d04130d39c9cfa1dbc76d"
+api_key = "5bf354741aa83086ff71252c29693668"
 # base_url variable to store url
 base_url = "http://api.openweathermap.org/data/2.5/weather?"
 # Give city name
