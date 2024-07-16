@@ -37,9 +37,9 @@ def user_interaction(inventory, product_id):
             print(f"Reorder Point: {product.optimal_stock_level}")
 
 # Example usage
-product1 = Product("Product A", "SKU001", 10.99, 50)
-product2 = Product("Product B", "SKU002", 15.99, 20)
-product3 = Product("Product C", "SKU003", 8.99, 30)
+product1 = Product("Product A", "SKU001", 55.1267,30)
+product2 = Product("Product B", "SKU002", 56.23, 20)
+product3 = Product("Product C", "SKU003", 2.59, 90)
 
 warehouse = Warehouse("Warehouse A", [product1, product2, product3])
 
